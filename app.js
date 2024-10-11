@@ -114,7 +114,6 @@
 
 
             // ..........CHAPTER : 05.................
-
 // Question :1
 // let num1 = Number(prompt("Enter first number:"));
 // let num2 = Number(prompt("Enter second number:"));
@@ -132,22 +131,22 @@
 
 
 // Question 3:
-// let my_variable;
-// document.write(`<p>Value after variable declaration is: <b>${my_variable}</b></p>`);
-// my_variable = 5;
-// document.write(`<p>Initial value: <b>${my_variable}</b></p>`);
-// my_variable++;
-// document.write(`<p>Value after increment is: <b>${my_variable}</b></p>`);
-// my_variable += 7;
-// document.write(`<p>Value after addition is: <b>${my_variable}</b></p>`);
-// my_variable--;
-// document.write(`<p>Value after decrement is: <b>${my_variable}</b></p>`);
-// document.write(`<p>The remainder when divided by 3 is: <b>${my_variable % 3}</b></p>`);
+// let myVariable;
+// document.write(`<p>Value after variable declaration is: <b>${myVariable}</b></p>`);
+// myVariable = 5;
+// document.write(`<p>Initial value: <b>${myVariable}</b></p>`);
+// myVariable++;
+// document.write(`<p>Value after increment is: <b>${myVariable}</b></p>`);
+// myVariable += 7;
+// document.write(`<p>Value after addition is: <b>${myVariable}</b></p>`);
+// myVariable--;
+// document.write(`<p>Value after decrement is: <b>${myVariable}</b></p>`);
+// document.write(`<p>The remainder when divided by 3 is: <b>${myVariable % 3}</b></p>`);
 
 
 // Question 4:
-// let ticket_price = 600;
-// document.write(`<p>Total cost to buy 5 movie tickets is: <b>${ticket_price * 5}</b> PKR</p>`);
+// let ticketPrice = 600;
+// document.write(`<p>Total cost to buy 5 movie tickets is: <b>${ticketPrice * 5}</b> PKR</p>`);
 
 
 // Question  5:
@@ -185,10 +184,10 @@
 
 // Question 8:
 // document.write(`<h1> Marks Sheet: </h1>`);
-// total_marks = 1100, marks_obtained = 990;
-// document.write(`Total marks : ${total_marks} <br>`);
-// document.write(`Marks Obtained :  ${marks_obtained} <br><br>`);
-// document.write(`Percentage : ${(marks_obtained * 100) / total_marks} `);
+// totalMarks = 1100, marksObtained = 990;
+// document.write(`Total marks : ${totalMarks} <br>`);
+// document.write(`Marks Obtained :  ${marksObtained} <br><br>`);
+// document.write(`Percentage : ${(marksObtained * 100) / totalMarks} `);
 
 
 // Question 9:
@@ -199,41 +198,41 @@
 
 // Question 10:
 
-// let my_num = 10;
-// document.write(`Initial value  : ${my_num} <br>`);
-// document.write(`Value + 5 :  ${my_num += 5} <br>`);
-// document.write(`Value x 10  : ${my_num *= 10}<br> `);
-// document.write(`Value / 12  : ${my_num /= 2} <br>`);
+// let myNum = 10;
+// document.write(`Initial value  : ${myNum} <br>`);
+// document.write(`Value + 5 :  ${myNum += 5} <br>`);
+// document.write(`Value x 10  : ${myNum *= 10}<br> `);
+// document.write(`Value / 12  : ${myNum /= 2} <br>`);
 
 // Question 11:
 
 // document.write(`<h1> Age Calculator: </h1>`);
-// let year_now = new Date().getFullYear();
-// let birth_year = +(prompt("Enter your birth year:"));
-// document.write(`Current year =  ${year_now} <br>`);
-// document.write(`Birth year =  ${birth_year} <br>`);
-// document.write(`Your age =  ${year_now - birth_year} <br>`);
+// let yearNow = new Date().getFullYear();
+// let birthYear = +(prompt("Enter your birth year:"));
+// document.write(`Current year =  ${yearNow} <br>`);
+// document.write(`Birth year =  ${birthYear} <br>`);
+// document.write(`Your age =  ${yearNow - birthYear} <br>`);
 
 
 // Question 12:
 
 // document.write(`<h1> The Geometrizer: </h1>`);
-// let radius = +(prompt("Enter the radius of the circle:"));
+// let radius = +(prompt("Enter the radius of the circle:`));
 // document.write(`The radius is: ${radius} <br>`);
 // document.write(`The circumference is: ${2 * 3.142 * radius} <br>`);
 // document.write(`The area is: ${3.142 * radius * radius} <br>`);
 
 // Question 13:
 
-// let favorite_snack = prompt("Enter your favorite snack:");
-// let current_age = +(prompt("Enter your current age:"));
-// let max_age = +(prompt("Enter the maximum age:"));
-// let amount_per_day = +(prompt("Enter the estimated amount of snacks you eat per day:"));
-// let years_remaining = max_age - current_age;
-// let total_snacks = years_remaining * 365 * amount_per_day;
+// let favoriteSnack = prompt("Enter your favorite snack:");
+// let currentAge = +(prompt("Enter your current age:"));
+// let maxAge = +(prompt("Enter the maximum age:"));
+// let amountPerDay = +(prompt("Enter the estimated amount of snacks you eat per day:"));
+// let yearsRemaining = maxAge - currentAge;
+// let totalSnacks = yearsRemaining * 365 * amountPerDay;
 // document.write(`<h1> Lifetime Supply Calculator: </h1>`);
-// document.write(`Favourite Snack: ${favorite_snack} <br>`);
-// document.write(`Current age: ${current_age} <br>`);
-// document.write(`Estimated Maximum Age: ${max_age} <br>`);
-// document.write(`Amount of snacks per day: ${amount_per_day}<br> `);
-// document.write(`You will need ${totalSnacks} ${favorite_snack}(s) to last you until the ripe old age of ${max_age}.`);
+// document.write(`Favourite Snack: ${favoriteSnack} <br>`);
+// document.write(`Current age: ${currentAge} <br>`);
+// document.write(`Estimated Maximum Age: ${maxAge} <br>`);
+// document.write(`Amount of snacks per day: ${amountPerDay}<br> `);
+// document.write(`You will need ${totalSnacks} ${favoriteSnack}(s) to last you until the ripe old age of ${maxAge}.`);
