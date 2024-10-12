@@ -84,7 +84,7 @@
     // document.write("<tr><td>Total</td><td>" + (totalMarks * 3) + "</td><td>" + totalObtained + "</td><td>" + percentage.toFixed(2) + "%</td></tr>");
     // document.write("</table>");
 
-// ..........CHAPTER : 09 - 011.................
+// ..........CHAPTER : 09 - 11.................
 
 // Question :1
 // let city = prompt("Enter your city name:");
@@ -104,16 +104,24 @@
 // let signalColor = prompt("Enter the color of the traffic signal (Red, Yellow, Green):");
 // if (signalColor.toLowerCase() === "red") {
 //     alert("Must Stop");
-// } else if (signalColor.toLowerCase() === "yellow") {
+// }
+// else if (signalColor.toLowerCase() === "yellow") {
 //     alert("Ready to move");
-// } else if (signalColor.toLowerCase() === "green") {
+// }
+// else if (signalColor.toLowerCase() === "green") {
 //     alert("Move now");
+// }
+// else {
+//     alert("invalid input");
 // }
 
 // // Question :4
 // let fuel = parseFloat(prompt("Enter remaining fuel in your car (in litres):"));
 // if (fuel < 0.25) {
 //     alert("Please refill the fuel in your car");
+// }
+// else {
+//     alert("No need to refill");
 // }
 
 // // Question :5
@@ -122,14 +130,14 @@
 // if (++a === 5) {
 //     alert("Given condition for variable a is true");
 // }
-// // Output: Alert will be displayed because ++a will increment a to 5, so the condition becomes true.
+// // Alert is displayed .
 
 // // ::::(part b )::::
 // let b = 82;
 // if (b++ === 83) {
 //     alert("Given condition for variable b is true");
 // }
-// // Output: No alert will be displayed because b++ increments b after the check, so the condition is false.
+// // No alert is not displayed .
 
 // // ::::(part c )::::
 // let c = 12;
@@ -145,9 +153,7 @@
 // if (c === 14) {
 //     alert("Condition 4 is true");
 // }
-// // Output:
-// // Condition 2 is true (because c becomes 13 after c++).
-// // Condition 4 is true (because ++c makes c equal to 14).
+// // Alert is displayed (Because condition 2 and 4 is true) .
 
 // // ::::(part d )::::
 // let materialCost = 20000;
@@ -156,8 +162,7 @@
 // if (totalCost === laborCost + materialCost) {
 //     alert("The cost equals");
 // }
-// // Output: Alert will be displayed because the total cost equals laborCost + materialCost.
-
+// // Alert is displayed .
 
 // // ::::(part e )::::
 // if (true) {
@@ -166,31 +171,24 @@
 // if (false) {
 //     alert("False");
 // }
-// // Output: Only "True" alert will be displayed.
+// // Alert is displayed (because first condition is true ).
 
 
 // // ::::(part f )::::
 // if ("car" < "cat") {
 //     alert("car is smaller than cat");
 // }
-// // Output: Alert will be displayed because in lexicographical order, "car" comes before "cat".
-
+// // Alert is displayed
 
 // // Question :6
-// // Take input for three subjects
-// var subject1Marks = parseInt(prompt("Enter marks obtained in first subject:"));
-// var subject2Marks = parseInt(prompt("Enter marks obtained in second subject:"));
-// var subject3Marks = parseInt(prompt("Enter marks obtained in third subject:"));
+// let subject1Marks = parseInt(prompt("Enter marks obtained in first subject:"));
+// let subject2Marks = parseInt(prompt("Enter marks obtained in second subject:"));
+// let subject3Marks = parseInt(prompt("Enter marks obtained in third subject:"));
+// let totalMarks = 300;
+// let obtainedMarks = subject1Marks + subject2Marks + subject3Marks;
+// let percentage = (obtainedMarks / totalMarks) * 100;
 
-// // Total marks for all subjects
-// var totalMarks = 300;
-// var obtainedMarks = subject1Marks + subject2Marks + subject3Marks;
-
-// // Calculate percentage
-// var percentage = (obtainedMarks / totalMarks) * 100;
-
-// // Determine grade and remarks based on the percentage
-// var grade, remarks;
+// let grade, remarks;
 // if (percentage >= 80) {
 //     grade = "A-one";
 //     remarks = "Excellent";
@@ -204,8 +202,6 @@
 //     grade = "Fail";
 //     remarks = "Sorry";
 // }
-
-// // Display the result
 // document.write("<h1>Marks Sheet</h1>");
 // document.write("Total marks: " + totalMarks + "<br>");
 // document.write("Marks obtained: " + obtainedMarks + "<br>");
@@ -214,14 +210,11 @@
 // document.write("Remarks: " + remarks + "<br>");
 
 // // Question :7
-// // Secret number (between 1 and 10)
-// var secretNumber = 7; // You can change this number
-
-// // Ask the user to guess the number
-// var userGuess = parseInt(prompt("Guess the secret number (between 1 and 10):"));
+// let secretNumber = 7; 
+// let userGuess = parseInt(prompt("Guess the secret number (between 1 and 10):"));
 
 // if (userGuess === secretNumber) {
-//     alert("Bingo! Correct answer");
+//     alert("Wow! You guess the correct answer");
 // } else if (userGuess + 1 === secretNumber) {
 //     alert("Close enough to the correct answer");
 // } else {
@@ -229,9 +222,7 @@
 // }
 
 // // Question :8
-// // Take input number
-// var number = parseInt(prompt("Enter a number:"));
-
+// let number = parseInt(prompt("Enter a number:"));
 // if (number % 3 === 0) {
 //     alert("The number is divisible by 3");
 // } else {
@@ -239,9 +230,7 @@
 // }
 
 // // Question :9
-// // Take input number
-// var number = parseInt(prompt("Enter a number:"));
-
+// let number = parseInt(prompt("Enter a number:"));
 // if (number % 2 === 0) {
 //     alert("The number is even");
 // } else {
@@ -249,9 +238,7 @@
 // }
 
 // // Question :10
-// // Take temperature input
-// var temperature = parseInt(prompt("Enter the temperature:"));
-
+// let temperature = parseInt(prompt("Enter the temperature:"));
 // if (temperature > 40) {
 //     alert("It is too hot outside.");
 // } else if (temperature > 30) {
@@ -259,16 +246,14 @@
 // } else if (temperature > 20) {
 //     alert("Today's Weather is cool.");
 // } else if (temperature > 10) {
-//     alert("OMG! Today’s weather is so Cool.");
+//     alert("Ya Allah! Today’s weather is so Cool.");
 // }
 
 // // Question :11
-// // Take inputs for numbers and operation
-// var num1 = parseFloat(prompt("Enter first number:"));
-// var num2 = parseFloat(prompt("Enter second number:"));
-// var operation = prompt("Enter operation (+, -, *, /, %):");
-
-// var result;
+// let num1 = parseFloat(prompt("Enter first number:"));
+// let num2 = parseFloat(prompt("Enter second number:"));
+// let operation = prompt("Enter operation (+, -, *, /, %):");
+// let result;
 
 // if (operation === "+") {
 //     result = num1 + num2;
@@ -283,7 +268,6 @@
 // } else {
 //     alert("Invalid operation");
 // }
-
 // if (result !== undefined) {
 //     alert("The result is: " + result);
 // }
