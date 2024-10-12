@@ -1,28 +1,24 @@
 // ..........CHAPTER : 06 - 09.................
 
 // Question :1
-// var a = 10;
+// let a = 10;
 //     document.write("Result:"+ "<br>");
 //     document.write("The value of a is: " + a + "<br>");
 //     document.write("------------------------------------------------------<br>");
-
 //     document.write("The value of ++a is: " + (++a) + "<br>");
 //     document.write("Now the value of a is: " + a + "<br><br>");
-
 //     document.write("The value of a++ is: " + (a++) + "<br>");
 //     document.write("Now the value of a is: " + a + "<br><br>");
-
 //     document.write("The value of --a is: " + (--a) + "<br>");
 //     document.write("Now the value of a is: " + a + "<br><br>");
-
 //     document.write("The value of a-- is: " + (a--) + "<br>");
 //     document.write("Now the value of a is: " + a + "<br>");
 
 // Question :2
-// var a = 2, b = 1;
+// let a = 2, b = 1;
 // document.write("a is : " + a);
 // document.write("b is : " + b);
-// var result = --a - --b + ++b + b--;
+// let result = --a - --b + ++b + b--;
 // document.write("Result is : " + result);
 
 // .........Explination.......
@@ -48,15 +44,13 @@
 // Final values: a = 1, b = 0, result = 3
 
 // Question :3
-//  var userName = prompt("Enter your name:");
+//  let userName = prompt("Enter your name:");
 // document.write("Hello, " + userName + "! Welcome!");
     
 // Question :5
 // let number = prompt("Enter a number for multiplication table", 5);
 //     number = parseInt(number);
-
 //     document.write("<h3>Multiplication Table of " + number + "</h3>");
-    
 //     for (let i = 1; i <= 10; i++) {
 //         document.write(number + " x " + i + " = " + (number * i) + "<br>");
 // }
@@ -65,13 +59,10 @@
     // let subject1 = prompt("Enter the name of first subject:");
     // let subject2 = prompt("Enter the name of second subject:");
     // let subject3 = prompt("Enter the name of third subject:");
-    
     // let totalMarks = 100;
-
     // let marks1 = parseInt(prompt("Enter obtained marks for " + subject1));
     // let marks2 = parseInt(prompt("Enter obtained marks for " + subject2));
     // let marks3 = parseInt(prompt("Enter obtained marks for " + subject3));
-
     // let totalObtained = marks1 + marks2 + marks3;
     // let percentage = (totalObtained / (totalMarks * 3)) * 100;
 
